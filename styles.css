@@ -1,7 +1,7 @@
-button{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+button {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
     border: none;
     background-color: gray;
     color: white;
@@ -9,6 +9,7 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+
 button:hover{
     background-color: silver;
 }
@@ -57,4 +58,45 @@ body{
 .operator-btn:hover{
     background-color: hsl(35, 100%, 65%);
 
+}
+.equals-btn {
+    background-color: #00f;
+}
+.equals-btn:hover{
+    background-color: #0000ff60 ;
+}
+.blue-btn {
+    background-color: #007BFF;
+    color: white;
+  }
+
+.wide-btn {
+    grid-column: span 2;
+  }
+.empty-space{
+    background-color: gray;
+    border-radius: 5rem;
+}
+.wide-btn{
+    grid-column: span 2;
+    aspect-ratio: auto;
+    height: 100px;
+    border-radius: 50px;
+}
+.red-btn {
+    background-color: red;
+    color: white;
+}
+
+.red-btn:hover{
+    background-color: #ff4d4d;
+}
+.blue-btn:hover{
+    background-color: #007bff80;
+}
+.blue-btn:active{
+    background-color: #007bff30;
+}
+.red-btn:active{
+    background-color: #ff4d4d60;
 }
